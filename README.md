@@ -81,7 +81,14 @@ git commit -m "Adding feature B1"
 echo "Hello from featureb" >> featureb2.txt
 git add *
 git commit -m "Adding feature B2"
+git rebase -i master
+```
+
+After finishing the interactive rebase and fixing the conflict manually
+
+```
 git checkout master
+git merge featureb
 ```
 
 ## PULL REQUEST
