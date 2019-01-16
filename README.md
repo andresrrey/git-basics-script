@@ -17,7 +17,7 @@ git commit -m "Initial commit"
 ```
 ## GIT PULL AND GIT PUSH
 
-After creating a new repository on GitHub called test-repo
+After creating a new repository on GitHub called test-repo (Use your own username instead of andresrrey)
 
 ```
 git remote
@@ -86,7 +86,7 @@ git checkout master
 
 ## PULL REQUEST
 
-After doing a fork of your partner's repo
+After doing a fork of your partner's repo (change andresrrey to your own GitHub username)
 ```
 git clone https://github.com/andresrrey/test-repo-1.git
 cd test-repo-1
